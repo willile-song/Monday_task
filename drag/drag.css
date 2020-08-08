@@ -1,0 +1,40 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.wrapper {
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+}
+.storage {
+    width: 150px;
+    height: 100%;
+    border-right:1px solid red;
+}
+.seal_box {
+    width: 100px;
+    height: 100px;
+    border: 1px dotted blueviolet;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.seal {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #aaa;
+    background-color: #aaa;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    transform: rotate(30deg);
+    user-select: none;
+}
