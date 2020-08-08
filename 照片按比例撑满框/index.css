@@ -1,0 +1,39 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.box1 {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+img {
+    width: 100px;
+}
+.pict_1 {
+    height: 61.6px;
+}
+.pict_2 {
+    height: 150px;
+}
+.pict_3 {
+    height: 123.6px;
+}
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.box3 {
+    width: 200px;
+    height: 247px;
+    border: 1px solid #ccc;
+}
